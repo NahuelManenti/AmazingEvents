@@ -1,0 +1,113 @@
+/* footer abajo */
+body{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(207, 201, 195);
+    /* background-image: url(../img/fondo/pexels-fwstudio-139321.jpg);
+    background-size: 62% 30rem;  */
+
+}
+
+footer{
+    margin-top: auto;
+    background-image: url(../img/fondo/pexels-milo-textures-2768398.jpg);
+    background-size: 100% 100rem;
+
+   }
+
+/* ---------------------------------------------------------- */
+.card-img-top{
+    height: 30vh;
+}
+/* .card-img-top2{
+    height: 50vh;
+    width: 85vh;
+} */
+
+h1,h2,h3,h4,h5 {
+
+    font-family: 'Bitter', serif;
+
+}
+
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.cohort{
+    
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+.mx-3{
+    color: black;
+}
+
+th{
+    color: rgb(154, 221, 221);
+}
+td{
+    font-size: 0.7rem;
+}
+.nav-link1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.active{
+    color: rgb(84, 2, 104);
+}
+
+.stats td:empty::after {
+    content: "\00a0";
+}
+
+/* ---------------------------------- BACKGROUND IMAGEN ------------------------- */
+nav{
+    background-image: url(../img/fondo/pexels-fwstudio-139321.jpg);
+    background-size: 63% 100rem;
+    background-position: 200% 1%;
+}
+header{
+    background-image: url(../img/fondo/pexels-fwstudio-139321.jpg);
+    background-size:  63% 100rem;
+    background-position: 200% 6.3%;
+
+}
+/* ---------------------------------colorDeDetalle-------------------------------- */
+
+.colorDeDetalle{
+    color: rgb(0, 0, 0);
+}
+
+.colorDeDetalle1{
+    color: rgb(58, 58, 58);
+}
+
+.display-2{
+    color: rgba(0, 0, 0, 0.856);
+    font-family: 'Press Start 2P', cursive;
+}
+/* -----------------------------checkbox------------------ */
+
+
+  
+  .toggle {
+    cursor: pointer;
+    /* background-color: #83D8FF; */
+    border-radius: 86px;
+  } 
+ 
+ 
+
+  .card-img-top{
+      object-fit: cover;
+  }
